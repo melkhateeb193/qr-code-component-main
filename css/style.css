@@ -45,8 +45,35 @@ height: 450px;
     color: var(--Grayish-blue);
 } 
 
-@media ( min-width: 375px ){
+@media ( max-width: 375px ){
+    body{
+        height: fit-content;
+    }
     .container {
-        width: 300px;
+        margin-top: 20px;
+    }
+}
+@media ( max-width: 600px ){
+    body{
+        height: fit-content;
+    }
+    .container {
+        margin-top: 20px;
+    }
+}
+@media ( max-width: 768px ){
+    body{
+        height: fit-content;
+    }
+    .container {
+        margin-top: 20px;
+    }
+}
+@media ( max-width: 992px ){
+    body{
+        height: fit-content;
+    }
+    .container {
+        margin-top: 20px;
     }
 }
